@@ -316,14 +316,22 @@ $P(S)=1$
 For a stock with outcomes Up/Down/Flat:  
 $P(\text{Up}) + P(\text{Down}) + P(\text{Flat}) = 1$
 
-### ⭐ Axiom 3: Additivity (Mutually Exclusive Events)  
-If $A \cap B = \emptyset$, then $P(A\cup B) = P(A) + P(B)$
+### ⭐ Axiom 3: Additivity (Mutually Exclusive Events)
 
-**Finance Example:**  
-- $A=\{\text{Rises } \ge 2\%\}$  
-- $B=\{\text{Falls } \ge 2\%\}$  
-$P(A\cup B)=P(A)+P(B)$
+If two events are mutually exclusive, then the probability of their union is the sum of their probabilities.
 
+$$
+A \cap B = \varnothing \;\Rightarrow\; P(A \cup B) = P(A) + P(B)
+$$
+
+**Finance Example:**
+
+- \(A\): Stock price rises by at least 2%
+- \(B\): Stock price falls by at least 2%
+
+Since both events cannot occur simultaneously:
+
+$$ P(A \cup B) = P(A) + P(B) $$
 ---
 
 ## ⚛️ 4. Scientific Example: Radioactive Decay
