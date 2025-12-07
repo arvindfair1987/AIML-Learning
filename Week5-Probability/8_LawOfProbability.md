@@ -15,22 +15,27 @@ by considering all the different **cases** (or conditions) under which **A** can
 Suppose the sample space is partitioned into events  
 
 $$
-\{B_1, B_2, \dots, B_n\}
+\{ B_1, B_2, \dots, B_n \}
 $$
 
 These events must be:
 
-- **Mutually Exclusive**  
-  Only one can occur at a time  
-  $$
-  B_i \cap B_j = \varnothing \quad (i \neq j)
-  $$
+## Mutually Exclusive
 
-- **Collectively Exhaustive**  
-  They cover all possibilities  
-  $$
-  B_1 \cup B_2 \cup \dots \cup B_n = S
-  $$
+Only one event can occur at a time.
+
+$$
+B_i \cap B_j = \varnothing,\quad i \ne j
+$$
+
+## Collectively Exhaustive
+
+They cover all possibilities.
+
+$$
+B_1 \cup B_2 \cup \dots \cup B_n = S
+$$
+
 
 ---
 
@@ -80,13 +85,11 @@ $$
 - Bag A chosen with probability **0.5**, fair coin → $$P(H \mid A)=0.5$$
 - Bag B chosen with probability **0.5**, biased coin → $$P(H \mid B)=0.75$$
 
-**Calculation**
-$$
-P(H) = (0.5 \times 0.5) + (0.5 \times 0.75)
-$$
-$$
+### Calculation
+
+P(H) = (0.5 × 0.5) + (0.5 × 0.75)  
 P(H) = 0.25 + 0.375 = 0.625
-$$
+
 
 ✅ Probability of getting Head = **0.625**
 
@@ -98,13 +101,12 @@ $$
 - Factory A produces **70%**, defect rate **2%**
 - Factory B produces **30%**, defect rate **5%**
 
-**Calculation**
-$$
-P(D) = (0.70 \times 0.02) + (0.30 \times 0.05)
-$$
-$$
+### Calculation
+
+P(D) = (0.70 x 0.02) + (0.30 x 0.05)
+
 P(D) = 0.014 + 0.015 = 0.029
-$$
+
 
 ✅ Probability an item is defective = **2.9%**
 
