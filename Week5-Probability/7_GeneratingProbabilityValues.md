@@ -647,12 +647,14 @@ Find `P(A defaults | B defaults)`
 
 ## 7️⃣ Quick Formulas Reference
 
+
 | Formula | Meaning |
-| ------- | ------- |
+|-------|---------|
 | `P(A ∩ B)` | Joint probability |
-| `P(A|B) = P(A ∩ B)/P(B)` | Conditional probability |
+| `P(A\|B) = P(A ∩ B)/P(B)` | Conditional probability |
 | `P(A ∪ B) = P(A) + P(B) − P(A ∩ B)` | Either event |
 | `P(A ∩ B) = P(A) × P(B)` | Check for independence |
+
 
 ---
 
